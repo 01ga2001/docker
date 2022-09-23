@@ -19,5 +19,3 @@ services: # Контецнеры, которые запускаем
       - "./sql:/docker-entrypoint-initdb.d"
     environment:
       MARIADB_ROOT_PASSWORD: password
-
-    
